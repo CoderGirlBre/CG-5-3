@@ -56,8 +56,7 @@ namespace DiceGame
                 Console.WriteLine("Total: " + total);
 
                 //When the totals add up to 20 for the user or computer, that person (or machine) wins.
-                //It will print who won to the console and then the false condition is finally met.
-                //Game over.
+                //It will print who won to the console and then the game is over.
                 if (sum >= 20)
                 {
                     Console.WriteLine();
