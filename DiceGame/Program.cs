@@ -3,7 +3,7 @@
 namespace DiceGame
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
             //The two lines serve as the title.
@@ -13,7 +13,10 @@ namespace DiceGame
             //Calling the method created below.
             DiceRolling(); 
         }
-        //New method.
+        /// <summary>
+        /// This method rolls the dice for both players. It also displays what they rolled each time
+        /// while keeping track of both of their totals.
+        /// </summary>
         private static void DiceRolling()
         {
             //Two new integer variables created for later use.
